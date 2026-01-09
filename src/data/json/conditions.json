@@ -1,0 +1,26 @@
+{
+  "brn": {
+    "name": "brn",
+    "effectType": "Status"
+  },
+  "par": {
+    "name": "par",
+    "effectType": "Status"
+  },
+  "slp": {
+    "name": "slp",
+    "effectType": "Status"
+  },
+  "frz": {
+    "name": "frz",
+    "effectType": "Status"
+  },
+  "psn": {
+    "name": "psn",
+    "effectType": "Status"
+  },
+  "tox": {
+    "name": "tox",
+    "effectType": "Status"
+  }
+}

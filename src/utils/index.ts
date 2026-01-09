@@ -1,0 +1,1 @@
+export { toID } from './id';

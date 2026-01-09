@@ -1,10 +1,10 @@
 /**
- * arktosmos-showdown
+ * arktosmos-pkmn-battle-engine
  *
  * A standalone Pokemon battle simulator - a complete extraction of battle logic
  * without external dependencies.
  *
- * @module @pokemon-omnilink/arktosmos-showdown
+ * @module arktosmos-pkmn-battle-engine
  */
 
 // Core battle classes

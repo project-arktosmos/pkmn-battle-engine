@@ -1,4 +1,4 @@
-# @pokemon-omnilink/arktosmos-showdown
+# arktosmos-pkmn-battle-engine
 
 A standalone Pokemon battle simulator - a complete extraction of battle logic without external dependencies.
 
@@ -17,7 +17,7 @@ A standalone Pokemon battle simulator - a complete extraction of battle logic wi
 ## Installation
 
 ```bash
-npm install @pokemon-omnilink/arktosmos-showdown
+npm install arktosmos-pkmn-battle-engine
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ npm install @pokemon-omnilink/arktosmos-showdown
 ### Basic Battle
 
 ```typescript
-import { Battle, BattleStream, getPlayerStreams, Teams, Dex } from '@pokemon-omnilink/arktosmos-showdown';
+import { Battle, BattleStream, getPlayerStreams, Teams, Dex } from 'arktosmos-pkmn-battle-engine';
 
 // Create a battle stream
 const stream = new BattleStream();
@@ -56,7 +56,7 @@ stream.write(`>player p2 {"name":"Player 2","team":"${team2}"}`);
 ### Using the Dex
 
 ```typescript
-import { Dex } from '@pokemon-omnilink/arktosmos-showdown';
+import { Dex } from 'arktosmos-pkmn-battle-engine';
 
 // Get Pokemon data
 const pikachu = Dex.species.get('pikachu');
@@ -79,7 +79,7 @@ console.log(typeChart.damageTaken); // { Ground: 1, ... }
 ### Team Packing/Unpacking
 
 ```typescript
-import { Teams } from '@pokemon-omnilink/arktosmos-showdown';
+import { Teams } from 'arktosmos-pkmn-battle-engine';
 
 // Create a team
 const team = [{
@@ -101,7 +101,7 @@ const unpacked = Teams.unpack(packed);
 ### Deterministic RNG
 
 ```typescript
-import { PRNG } from '@pokemon-omnilink/arktosmos-showdown';
+import { PRNG } from 'arktosmos-pkmn-battle-engine';
 
 // Create PRNG with seed for reproducible battles
 const prng = new PRNG([1, 2, 3, 4]);
@@ -114,7 +114,7 @@ const damage = prng.randomChance(85, 100); // 85% chance
 ### ID Normalization
 
 ```typescript
-import { toID } from '@pokemon-omnilink/arktosmos-showdown';
+import { toID } from 'arktosmos-pkmn-battle-engine';
 
 toID('Pikachu');        // 'pikachu'
 toID('Mr. Mime');       // 'mrmime'

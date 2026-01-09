@@ -1,5 +1,5 @@
 {
-  "name": "@pokemon-omnilink/arktosmos-showdown",
+  "name": "arktosmos-pkmn-battle-engine",
   "version": "1.0.0",
   "description": "Standalone Pokemon battle simulator - a complete extraction of battle logic without external dependencies",
   "author": "Pokemon Omnilink",
@@ -38,7 +38,7 @@
     "pokemon",
     "battle",
     "simulator",
-    "showdown",
+    "engine",
     "arktosmos"
   ],
   "license": "MIT",

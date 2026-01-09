@@ -5,11 +5,11 @@
   "author": "Project Arktosmos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pokemon-omnilink/arktosmos-pkmn-battle-engine.git"
+    "url": "git+https://github.com/project-arktosmos/pkmn-battle-engine.git"
   },
-  "homepage": "https://github.com/pokemon-omnilink/arktosmos-pkmn-battle-engine#readme",
+  "homepage": "https://github.com/project-arktosmos/pkmn-battle-engine#readme",
   "bugs": {
-    "url": "https://github.com/pokemon-omnilink/arktosmos-pkmn-battle-engine/issues"
+    "url": "https://github.com/project-arktosmos/pkmn-battle-engine/issues"
   },
   "type": "module",
   "main": "dist/index.js",

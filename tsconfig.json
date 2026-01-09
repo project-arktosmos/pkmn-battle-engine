@@ -15,6 +15,6 @@
     "declarationDir": "./dist",
     "composite": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/data/json/*.json"],
   "exclude": ["node_modules", "dist", "test", "scripts"]
 }

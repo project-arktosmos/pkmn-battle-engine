@@ -7,4 +7,4 @@
 import movesData from './json/moves.json';
 import type { MoveData } from '../types';
 
-export const MovesData: Record<string, MoveData> = movesData as Record<string, MoveData>;
+export const MovesData: Record<string, MoveData> = movesData as unknown as Record<string, MoveData>;

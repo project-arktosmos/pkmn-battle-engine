@@ -2,7 +2,7 @@
   "name": "arktosmos-pkmn-battle-engine",
   "version": "1.0.0",
   "description": "Standalone Pokemon battle simulator - a complete extraction of battle logic without external dependencies",
-  "author": "Pokemon Omnilink",
+  "author": "Project Arktosmos",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pokemon-omnilink/arktosmos-pkmn-battle-engine.git"
